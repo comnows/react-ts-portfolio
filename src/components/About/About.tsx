@@ -1,10 +1,11 @@
 import { FaDownload } from "react-icons/fa6";
 import Skill from "./Skill/Skill";
+import Experience from "./Experience/Experience";
 
 function About() {
   return (
     <section id="about">
-      <div className="container mx-auto pt-9 pb-[72px]">
+      <div className="container mx-auto px-24 pt-9 pb-[72px]">
         <div className="relative flex text-center">
           <h2 className="text-gray-200 text-[calc(1.95rem+8.4vw)] xl:text-[8.25rem] font-bold opacity-40 uppercase w-full">
             about me
@@ -94,6 +95,7 @@ function About() {
         </div>
       </div>
       <Skill />
+      <Experience />
     </section>
   );
 }
