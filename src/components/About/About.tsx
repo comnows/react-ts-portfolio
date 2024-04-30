@@ -1,9 +1,10 @@
 import { FaDownload } from "react-icons/fa6";
+import Skill from "./Skill/Skill";
 
 function About() {
   return (
-    <section id="about" className="py-8">
-      <div className="container mx-auto px-12">
+    <section id="about">
+      <div className="container mx-auto pt-9 pb-[72px]">
         <div className="relative flex text-center">
           <h2 className="text-gray-200 text-[calc(1.95rem+8.4vw)] xl:text-[8.25rem] font-bold opacity-40 uppercase w-full">
             about me
@@ -56,7 +57,7 @@ function About() {
                 +66 081 964 2050
               </li>
             </ul>
-            <ul className="flex-1">
+            <ul className="flex-1 ml-[50px]">
               <li className="py-2">
                 <span className="inline-block min-w-[100px] font-bold">
                   Address:{" "}
@@ -92,6 +93,7 @@ function About() {
           </a>
         </div>
       </div>
+      <Skill />
     </section>
   );
 }
