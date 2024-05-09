@@ -14,9 +14,18 @@ export default {
             opacity: "1",
           },
         },
+        morph: {
+          "0%, 100%": {
+            "border-radius": "60% 40% 30% 70% / 60% 30% 70% 40%",
+          },
+          "50%": {
+            "border-radius": "25% 85% 75% 55% / 75% 60% 80% 60%",
+          },
+        },
       },
       animation: {
         "slide-down": "slide-down 1.5s infinite",
+        morph: "morph 6s ease-in-out infinite 1s",
       },
     },
   },

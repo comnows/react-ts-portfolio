@@ -9,8 +9,12 @@ function Home() {
         <div className="absolute bg-black opacity-65 w-full h-full z-10"></div>
         <div className="relative bg-none container flex justify-center min-h-screen z-20 mx-auto">
           <div className="flex items-center gap-20 my-auto">
-            <div className="w-[250px] rounded-full overflow-hidden">
-              <img src={profilePic} alt="Profile Pic Not Found" />
+            <div className="relative w-[250px] shadow-[inset_0_0_0_9px_rgba(255,255,255,0.3)] overflow-hidden animate-morph">
+              <img
+                src={profilePic}
+                alt="Profile Pic Not Found"
+                className="relative -z-10"
+              />
             </div>
             <div>
               <h3 className="text-white text-5xl font-extrabold mb-4">
@@ -22,11 +26,11 @@ function Home() {
             </div>
           </div>
           <a
-            href=""
-            className="absolute bottom-5 left-1/2 text-white text-xl text-center"
+            href="#about"
+            className="absolute bottom-5 left-1/2 text-white text-xl text-center w-8 h-8"
           >
             <span className="relative animate-slide-down">
-              <FaAngleDown />
+              <FaAngleDown className="inline-block" />
             </span>
           </a>
         </div>
