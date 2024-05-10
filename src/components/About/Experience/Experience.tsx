@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="px-24 py-[72px]">
+    <div className="bg-white px-24 py-[72px]">
       <div className="container mx-auto">
         <div className="flex justify-center w-full">
           <div className="flex-1">
