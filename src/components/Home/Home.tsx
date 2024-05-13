@@ -13,9 +13,9 @@ function Home() {
         className="absolute w-full h-full object-cover -z-20 [transform:translateZ(-1px)_scale(2)]"
       />
       <div className="absolute bg-black opacity-65 -z-10 w-full h-full"></div>
-      <div className="relative bg-none container flex justify-center min-h-screen mx-auto">
-        <div className="flex items-center gap-20 my-auto">
-          <div className="relative w-[250px] shadow-[inset_0_0_0_9px_rgba(255,255,255,0.3)] overflow-hidden animate-morph">
+      <div className="relative bg-none container flex justify-center h-full mx-auto">
+        <div className="flex items-center max-lg:flex-col max-lg:text-center gap-20 my-auto">
+          <div className="relative w-[300px] max-2xl:w-[250px] max-xl:w-[200px] max-lg:w-[250px] max-md:w-[200px] shadow-[inset_0_0_0_9px_rgba(255,255,255,0.3)] overflow-hidden animate-morph">
             <img
               src={profilePic}
               alt="Profile Pic Not Found"
@@ -23,7 +23,7 @@ function Home() {
             />
           </div>
           <div>
-            <h3 className="text-white text-5xl font-extrabold mb-4">
+            <h3 className="text-white text-6xl max-2xl:text-5xl max-xl:text-4xl max-sm:text-3xl font-extrabold mb-4">
               Watthanandh <br /> Luaengtawekul
             </h3>
             <div className="text-gray-300">
