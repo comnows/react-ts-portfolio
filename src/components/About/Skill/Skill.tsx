@@ -2,10 +2,10 @@ import { FaCaretRight } from "react-icons/fa6";
 
 function Skill() {
   return (
-    <div className="bg-gray-100 px-24 py-[72px]">
+    <div className="bg-gray-100 px-6 lg:px-24 py-[72px]">
       <div className="container mx-auto">
-        <div className="flex justify-center w-full">
-          <div className="flex-1">
+        <div className="flex max-md:flex-col justify-center w-full">
+          <div className="flex-1 max-md:mb-[60px]">
             <div className="text-xl font-bold mb-10">Knowledge</div>
             <div className="text-gray-500">
               <ul>
@@ -28,7 +28,7 @@ function Skill() {
               </ul>
             </div>
           </div>
-          <div className="flex-1 ml-[50px]">
+          <div className="flex-1 md:ml-[50px]">
             <div className="text-xl font-bold mb-10">Interests</div>
             <div className="text-gray-500">
               <ul>

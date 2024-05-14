@@ -38,6 +38,15 @@ export default {
         ".container": {
           width: "100%",
           maxWidth: "100%",
+          "@screen sm": {
+            maxWidth: "620px",
+          },
+          "@screen md": {
+            maxWidth: "720px",
+          },
+          "@screen lg": {
+            maxWidth: "960px",
+          },
           "@screen xl": {
             maxWidth: "1200px",
           },
