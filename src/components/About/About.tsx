@@ -1,20 +1,14 @@
 import { FaDownload } from "react-icons/fa6";
 import Skill from "./Skill/Skill";
 import Experience from "./Experience/Experience";
+import Heading from "../General/Heading/Heading";
 
 function About() {
   return (
     <section id="about">
       <div className="bg-white">
         <div className="container mx-auto px-6 lg:px-24 pt-9 pb-[72px]">
-          <div className="relative flex text-center">
-            <h2 className="text-gray-200 max-lg:text-[calc(1.95rem+8.4vw)] max-xl:text-[calc(1.95rem+6vw)] text-[calc(1.95rem+8.4vw)] font-bold opacity-40 uppercase w-full">
-              about me
-            </h2>
-            <div className="absolute self-center text-4xl font-bold w-full">
-              Know Me More
-            </div>
-          </div>
+          <Heading sectionName="About Me" subName="Know Me More" />
           <div className="border-b pb-[30px] mb-[30px]">
             <h3 className="text-3xl font-bold mb-3">
               I'm{" "}

@@ -1,18 +1,12 @@
 import { FaPhone, FaEnvelopeOpen, FaFacebook, FaGithub } from "react-icons/fa6";
 import MessageForm from "./MessageForm/MessageForm";
+import Heading from "../General/Heading/Heading";
 
 function Contact() {
   return (
     <section id="contact">
       <div className="container mx-auto px-24 py-[72px]">
-        <div className="relative flex text-center mb-6">
-          <h2 className="text-gray-200 text-[calc(1.95rem+8.4vw)] xl:text-[8.25rem] font-bold opacity-40 uppercase w-full">
-            contact
-          </h2>
-          <div className="absolute self-center text-4xl font-bold w-full">
-            Get in Touch
-          </div>
-        </div>
+        <Heading sectionName="Contact" subName="Get in Touch" />
         <div className="flex gap-5">
           <div className="basis-1/4 mr-">
             <h3 className="text-xl font-bold uppercase mb-4">Where am I</h3>
