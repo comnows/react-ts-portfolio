@@ -38,7 +38,7 @@ const works: workObject[] = [
 function Portfolio() {
   return (
     <section id="portfolio">
-      <div className="bg-gray-100 px-24 py-[72px]">
+      <div className="bg-gray-100 px-6 lg:px-24 py-[72px]">
         <div className="container mx-auto">
           <Heading sectionName="Portfolio" subName="My Work" />
           <div className="w-full">
