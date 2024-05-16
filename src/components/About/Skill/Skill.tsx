@@ -11,19 +11,19 @@ function Skill() {
               <ul>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">HTML, CSS, JavaScript</span>
+                  <span className="pl-4">HTML, CSS, Tailwind CSS</span>
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">React, NodeJS</span>
+                  <span className="pl-4">React, JavaScript, TypeScript</span>
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">Tailwind CSS</span>
+                  <span className="pl-4">NodeJS, MySQL, Firebase</span>
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">MySQL, Firebase</span>
+                  <span className="pl-4">Unity</span>
                 </li>
               </ul>
             </div>
@@ -34,19 +34,22 @@ function Skill() {
               <ul>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">Something</span>
+                  <span className="pl-4">
+                    Coding: Developed several personal web projects using React
+                  </span>
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">Something</span>
+                  <span className="pl-4">
+                    Japanese Language: Studying 15 minutes daily, familiar with
+                    basic phrases
+                  </span>
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">Something</span>
-                </li>
-                <li className="leading-7">
-                  <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4 uppercase">Football!</span>
+                  <span className="pl-4">
+                    Physical Exercise: running for 30-45 minutes 3 days a week
+                  </span>
                 </li>
               </ul>
             </div>
