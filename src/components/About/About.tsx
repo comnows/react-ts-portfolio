@@ -28,7 +28,7 @@ function About() {
             </p>
           </div>
           <div className="border-b pb-[30px] mb-[30px]">
-            <div className="flex">
+            <div className="flex max-md:flex-col">
               <ul className="flex-1">
                 <li className="py-2">
                   <span className="inline-block min-w-[100px] font-bold">
@@ -55,7 +55,7 @@ function About() {
                   +66 081 964 2050
                 </li>
               </ul>
-              <ul className="flex-1 ml-[50px]">
+              <ul className="flex-1 md:ml-[50px]">
                 <li className="py-2">
                   <span className="inline-block min-w-[100px] font-bold">
                     Address:{" "}
