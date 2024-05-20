@@ -23,7 +23,7 @@ function Skill() {
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">Unity</span>
+                  <span className="pl-4">Unity, C#</span>
                 </li>
               </ul>
             </div>
