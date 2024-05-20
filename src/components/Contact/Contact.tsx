@@ -34,13 +34,21 @@ function Contact() {
               </div>
             </div>
             <div className="flex max-sm:justify-center gap-4">
-              <a href="" className="group/facebook">
+              <a
+                href="https://www.facebook.com/profile.php?id=100001958262370"
+                target="_blank"
+                className="group/facebook"
+              >
                 <FaFacebook
                   className="text-gray-600 group-hover/facebook:text-[#3b5998]"
                   fontSize="24px"
                 />
               </a>
-              <a href="" className="group/github">
+              <a
+                href="https://github.com/comnows"
+                target="_blank"
+                className="group/github"
+              >
                 <FaGithub
                   className="text-gray-600 group-hover/github:text-black"
                   fontSize="24px"
