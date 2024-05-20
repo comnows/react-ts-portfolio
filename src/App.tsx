@@ -7,9 +7,9 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div className="ml-[350px]">
+    <div className="max-lg:mt-[50px] lg:ml-[350px]">
       <Navbar />
-      <div className="h-screen overflow-x-hidden overflow-y-auto [perspective:1px]">
+      <div className="max-lg:h-[calc(100vh-50px)] h-screen overflow-x-hidden overflow-y-auto [perspective:1px] scroll-smooth">
         <Home />
         <About />
         <Portfolio />
