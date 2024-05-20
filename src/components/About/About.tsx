@@ -11,20 +11,30 @@ function About() {
           <Heading sectionName="About Me" subName="Know Me More" />
           <div className="border-b pb-[30px] mb-[30px]">
             <h3 className="text-3xl font-bold mb-3">
-              I'm{" "}
+              Hi, I'm{" "}
               <span className="text-yellow-400">
                 Watthanandh Luaengtawekul,
               </span>{" "}
-              a Web Developer
+              a Web/Game Developer
             </h3>
+            <p className="mb-3">
+              I'm graduate with a degree in Bachelor of Science in Technology
+              Media, specializing in Game Development from King Mongkut's
+              University of Technology Thonburi. Although my academic focus was
+              on a game development, I've transitioned from game development
+              into web development field. I've been polishing my skills and
+              expanding my knowledge over the past year.
+            </p>
+            <p className="mb-3">
+              My passion for programming began with an interested in game
+              development, then I discovered a web development that interesting
+              me. So I decided to applying my game development skills to deep
+              dive into this field.{" "}
+            </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              As a recent graduate, I'm eager to continue learning and growing
+              in the field of web development to keep my skills sharp and stay
+              updated with the latest industry trends.
             </p>
           </div>
           <div className="border-b pb-[30px] mb-[30px]">
@@ -56,6 +66,12 @@ function About() {
                 </li>
               </ul>
               <ul className="flex-1 md:ml-[50px]">
+                <li className="py-2">
+                  <span className="inline-block min-w-[100px] font-bold">
+                    Nationality:{" "}
+                  </span>
+                  Thai
+                </li>
                 <li className="py-2">
                   <span className="inline-block min-w-[100px] font-bold">
                     Address:{" "}
