@@ -1,7 +1,10 @@
-import { FaDownload } from "react-icons/fa6";
 import Skill from "./Skill/Skill";
 import Experience from "./Experience/Experience";
 import Heading from "../General/Heading/Heading";
+
+import myCv from "../../assets/cv-watthanandh.pdf";
+import myResume from "../../assets/resume-watthanandh.pdf";
+import DownloadButton from "./DownloadButton";
 
 function About() {
   return (
@@ -94,17 +97,8 @@ function About() {
             </div>
           </div>
           <div>
-            <a
-              href=""
-              className="group/download-cv relative inline-block border border-yellow-400 rounded-full py-4 pl-[35px] pr-[70px] overflow-hidden before:absolute before:bg-yellow-400 before:inset-0 before:z-0 before:translate-x-full hover:before:translate-x-0 before:transition-transform before:duration-300 before:ease-out"
-            >
-              <span className="relative font-bold uppercase transition-colors duration-300 group-hover/download-cv:text-white">
-                Download CV
-              </span>
-              <span className="absolute flex justify-center items-center text-lg w-14 h-14 bottom-0 right-[-1px] rounded-full bg-yellow-400">
-                <FaDownload color="white" />
-              </span>
-            </a>
+            <DownloadButton fileLink={myCv} name="Download CV" />
+            <DownloadButton fileLink={myResume} name="Resume" />
           </div>
         </div>
       </div>
