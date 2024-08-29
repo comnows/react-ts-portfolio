@@ -1,5 +1,3 @@
-import React from "react";
-
 function Experience() {
   return (
     <div className="bg-white px-6 lg:px-24 py-[72px]">
