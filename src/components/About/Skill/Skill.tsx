@@ -19,7 +19,9 @@ function Skill() {
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
-                  <span className="pl-4">NodeJS, MySQL, Firebase</span>
+                  <span className="pl-4">
+                    NodeJS, MySQL, PostgreSQL, Firebase
+                  </span>
                 </li>
                 <li className="leading-7">
                   <FaCaretRight color="black" className="inline-block" />
